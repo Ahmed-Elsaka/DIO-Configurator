@@ -1,0 +1,2105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>create</class>
+ <widget class="QWidget" name="create">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>673</width>
+    <height>645</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label_33">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>10</y>
+     <width>341</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>19</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+     <strikeout>false</strikeout>
+    </font>
+   </property>
+   <property name="text">
+    <string>AVR DIO Pin Configurations </string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>651</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QFrame" name="PortA_frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QComboBox" name="PinA_1_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>74</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="PinA_3_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>120</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>211</y>
+         <width>48</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinA_7</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>165</y>
+         <width>47</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinA_5</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>48</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinA_0</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="PinA_5_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>166</y>
+         <width>113</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>119</y>
+         <width>47</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinA_3</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="PinA_2_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>97</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>96</y>
+         <width>47</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinA_2</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="PinA_6_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>188</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>142</y>
+         <width>48</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinA_4</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>73</y>
+         <width>47</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinA_1</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="PinA_0_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>51</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>188</y>
+         <width>48</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinA_6</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="PinA_4_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>143</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="PinA_7_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>211</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_17">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>10</y>
+         <width>201</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>13</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Port A configurations</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_18">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>31</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PIN</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_19">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>30</y>
+         <width>111</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>DDR</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_20">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>30</y>
+         <width>61</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>VALUE</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>50</y>
+         <width>101</width>
+         <height>181</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QComboBox" name="PinA_0_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinA_1_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinA_2_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinA_3_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinA_4_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinA_5_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinA_6_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinA_7_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QFrame" name="PortC_frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QComboBox" name="PinC_1_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>74</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="PinC_3_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>120</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_58">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>211</y>
+         <width>48</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinC_7</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_59">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>165</y>
+         <width>47</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinC_5</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_60">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>48</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinC_0</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="PinC_5_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>166</y>
+         <width>113</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_61">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>119</y>
+         <width>47</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinC_3</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="PinC_2_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>97</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_62">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>96</y>
+         <width>47</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinC_2</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="PinC_6_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>188</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_63">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>142</y>
+         <width>48</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinC_4</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_64">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>73</y>
+         <width>47</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinC_1</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="PinC_0_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>51</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_65">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>188</y>
+         <width>48</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinC_6</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="PinC_4_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>143</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="PinC_7_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>211</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_66">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>10</y>
+         <width>201</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>13</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Port C configurations</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_67">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>31</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PIN</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_68">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>30</y>
+         <width>111</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>DDR</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_69">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>30</y>
+         <width>61</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>VALUE</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="layoutWidget_4">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>50</y>
+         <width>101</width>
+         <height>181</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <widget class="QComboBox" name="PinC_0_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinC_1_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinC_2_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinC_3_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinC_4_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinC_5_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinC_6_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinC_7_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QFrame" name="PortB_frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QComboBox" name="PinB_1_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>74</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="PinB_3_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>120</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_34">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>211</y>
+         <width>48</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinB_7</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_35">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>165</y>
+         <width>47</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinB_5</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_36">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>48</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinB_0</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="PinB_5_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>166</y>
+         <width>113</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_37">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>119</y>
+         <width>47</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinB_3</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="PinB_2_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>97</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_38">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>96</y>
+         <width>47</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinB_2</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="PinB_6_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>188</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_39">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>142</y>
+         <width>48</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinB_4</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_40">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>73</y>
+         <width>47</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinB_1</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="PinB_0_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>51</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_41">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>188</y>
+         <width>48</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinB_6</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="PinB_4_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>143</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="PinB_7_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>211</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_42">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>10</y>
+         <width>201</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>13</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Port B configurations</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_43">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>31</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PIN</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_44">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>30</y>
+         <width>111</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>DDR</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_45">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>30</y>
+         <width>61</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>VALUE</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="layoutWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>50</y>
+         <width>101</width>
+         <height>181</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QComboBox" name="PinB_0_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinB_1_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinB_2_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinB_3_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinB_4_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinB_5_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinB_6_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinB_7_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QFrame" name="PortD_frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QComboBox" name="PinD_1_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>74</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="PinD_3_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>120</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_46">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>211</y>
+         <width>48</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinD_7</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_47">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>165</y>
+         <width>47</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinD_5</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_48">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>48</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinD_0</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="PinD_5_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>166</y>
+         <width>113</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_49">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>119</y>
+         <width>47</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinD_3</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="PinD_2_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>97</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_50">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>96</y>
+         <width>47</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinD_2</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="PinD_6_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>188</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_51">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>142</y>
+         <width>48</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinD_4</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_52">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>73</y>
+         <width>47</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinD_1</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="PinD_0_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>51</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_53">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>188</y>
+         <width>48</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PinD_6</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="PinD_4_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>143</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="PinD_7_ddr_combo">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>211</y>
+         <width>113</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Output</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Input_Pullup</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_54">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>10</y>
+         <width>201</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>13</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Port D configurations</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_55">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>31</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>PIN</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_56">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>30</y>
+         <width>111</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>DDR</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_57">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>30</y>
+         <width>61</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>VALUE</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="layoutWidget_3">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>50</y>
+         <width>101</width>
+         <height>181</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QComboBox" name="PinD_0_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinD_1_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinD_2_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinD_3_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinD_4_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinD_5_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinD_6_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="PinD_7_val_combo">
+          <item>
+           <property name="text">
+            <string>HIGH</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>LOW</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>588</y>
+     <width>651</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label_70">
+      <property name="text">
+       <string>File Name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="txt_lineEdit"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn_load">
+      <property name="text">
+       <string>load</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn_exit">
+      <property name="text">
+       <string>exit</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <zorder>layoutWidget</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>label_33</zorder>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btn_exit</sender>
+   <signal>clicked()</signal>
+   <receiver>create</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>617</x>
+     <y>613</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>336</x>
+     <y>322</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_load</sender>
+   <signal>clicked()</signal>
+   <receiver>btn_load</receiver>
+   <slot>toggle()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>526</x>
+     <y>613</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>526</x>
+     <y>613</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
