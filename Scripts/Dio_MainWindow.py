@@ -607,6 +607,14 @@ class Ui_create(object):
         QtCore.QMetaObject.connectSlotsByName(create)
 
     def WriteInFile(self,list):
+        ##############################################################################
+        #  this function will write in file Data Direction Register Configurations   #
+        #  INPUT :                                                                   #
+        #      list : this is a list of DDR States                                   #
+        #  OUTPUT :                                                                  #
+        #      the function will write in Text file                                  # 
+        #      The configurations based on list content                              #
+        ##############################################################################
         fileName= self.txt_lineEdit.text()
         # handel if file name is empty 
         try : 
@@ -631,7 +639,14 @@ class Ui_create(object):
 
 # ---------------------------------------------- Store in file functions -----------------------
     def StoreDDRCompoStates(self):
-     #1- get DDR combobox state 
+        ##############################################################################
+        #  this function set status of current configurations for pis in the script  #
+        #  INPUT :                                                                   #
+        #      This function take no arguements except self                          #
+        #  OUTPUT :                                                                  #
+        #      the function will store the state of current configuratiions in list  # 
+        #      Then passing this list to WriteInFile function to Write them          #
+        ##############################################################################
         states = [] # create list to store states of pins 
         # get status of portA 
         states.append(self.PinA_0_ddr_combo.currentText())
@@ -670,10 +685,18 @@ class Ui_create(object):
         states.append(self.PinD_6_ddr_combo.currentText())
         states.append(self.PinD_7_ddr_combo.currentText()) 
 
-     #2 - write states to file 
+     # Send this list to WriteInFile Function to write it in file 
         self.WriteInFile(states)
 
     def AppendToFile(self,list):
+        ##############################################################################
+        #  this function will append in file Ports Direction Register Configurations #
+        #  INPUT :                                                                   #
+        #      list : this is a list of PORTS States                                 #
+        #  OUTPUT :                                                                  #
+        #      the function will append in Text file                                 # 
+        #      The configurations based on list content                              #
+        ##############################################################################
         fileName= self.txt_lineEdit.text()
         try : 
             with open(fileName, 'a+') as f:
@@ -695,6 +718,14 @@ class Ui_create(object):
 
 
     def StoreVALCompoStates(self):
+        ##############################################################################
+        #  this function get status of current configurations for pis in the script  #
+        #  INPUT :                                                                   #
+        #      This function take no arguements except self                          #
+        #  OUTPUT :                                                                  #
+        #      the function will store the state of current configuratiions in list  # 
+        #      Then passing this list to AppendToFile function to Write them         #
+        ##############################################################################
      #1- get DDR combobox state 
         states = [] # create list to store states of pins 
         # get status of portA 
@@ -738,6 +769,18 @@ class Ui_create(object):
         self.AppendToFile(states)
 
     def StoreConfigurations(self):
+        ##############################################################################
+        #  this is the main function that control all script through two functions   #
+        #   1- StoreDDRCompoStates :                                                 #
+        #        Store the state of DDRs Configurations                              #
+        #    2- StoreVALCompoStates :                                                #
+        #       Store the state of PORTs Configurations                              #
+        #  INPUT :                                                                   #
+        #      This function take no arguements except self                          #
+        #  OUTPUT :                                                                  #
+        #      the function will call these two functions to store your              #
+        #        configurations                                                       # 
+        ##############################################################################
         self.StoreDDRCompoStates()
         self.StoreVALCompoStates()
 #------------------------------------------ End of Store in file functions ---------------------
@@ -746,7 +789,18 @@ class Ui_create(object):
 
 
     def FillDDRCombos(self, index , type):
-            #fill port A 
+        ##############################################################################
+        #  this function Fill fields of Script combo boxes related to DDRs           #
+        #  INPUT :                                                                   #
+        #      index :                                                               #
+        #            this represend parsed line index to define which combobox will  #
+        #            be effected                                                     #
+        #        type :                                                              #
+        #            define which state will the combobox will change to             #
+        #  OUTPUT :                                                                  #
+        #        Change states of DDRs Compoboxs                                     #
+        ##############################################################################
+            #------------------------------fill DDR A ------------------------------#
             if index == 1 : 
                 index = self.PinA_0_ddr_combo.findText(type, QtCore.Qt.MatchFixedString)
                 if index >= 0:
@@ -779,7 +833,7 @@ class Ui_create(object):
                 index = self.PinA_7_ddr_combo.findText(type, QtCore.Qt.MatchFixedString)
                 if index >= 0:
                     self.PinA_7_ddr_combo.setCurrentIndex(index)
-            # fill port B 
+            # -----------------------------fill DDR B -------------------------------#
             if index == 9 : 
                 index = self.PinB_0_ddr_combo.findText(type, QtCore.Qt.MatchFixedString)
                 if index >= 0:
@@ -813,7 +867,7 @@ class Ui_create(object):
                 if index >= 0:
                     self.PinB_7_ddr_combo.setCurrentIndex(index) 
 
-            # fill port C 
+            # --------------------------------fill DDR C -------------------------------#
             if index == 17 : 
                 index = self.PinC_0_ddr_combo.findText(type, QtCore.Qt.MatchFixedString)
                 if index >= 0:
@@ -847,7 +901,7 @@ class Ui_create(object):
                 if index >= 0:
                     self.PinC_7_ddr_combo.setCurrentIndex(index) 
 
-            # fill port B 
+            # -----------------------------fill DDR D --------------------------------#
             if index == 25 : 
                 index = self.PinD_0_ddr_combo.findText(type, QtCore.Qt.MatchFixedString)
                 if index >= 0:
@@ -883,7 +937,18 @@ class Ui_create(object):
 
 
     def FillVALCombos(self, index , type):
-            #fill port A 
+        ##############################################################################
+        #  this function Fill fields of Script combo boxes related to PORTS          #
+        #  INPUT :                                                                   #
+        #      index :                                                               #
+        #            this represend parsed line index to define which combobox will  #
+        #            be effected                                                     #
+        #        type :                                                              #
+        #            define which state will the combobox will change to             #
+        #  OUTPUT :                                                                  #
+        #        Change states of PORTs Compoboxs                                    #
+        ##############################################################################
+             # -----------------------------fill port A --------------------------------#
             if index == 1 : 
                 index = self.PinA_0_val_combo.findText(type, QtCore.Qt.MatchFixedString)
                 if index >= 0:
@@ -916,7 +981,7 @@ class Ui_create(object):
                 index = self.PinA_7_val_combo.findText(type, QtCore.Qt.MatchFixedString)
                 if index >= 0:
                     self.PinA_7_val_combo.setCurrentIndex(index)
-            # fill port B 
+             # -----------------------------fill port B --------------------------------#
             if index == 9 : 
                 index = self.PinB_0_val_combo.findText(type, QtCore.Qt.MatchFixedString)
                 if index >= 0:
@@ -950,7 +1015,7 @@ class Ui_create(object):
                 if index >= 0:
                     self.PinB_7_val_combo.setCurrentIndex(index) 
 
-            # fill port C 
+             # -----------------------------fill port B --------------------------------#
             if index == 17 : 
                 index = self.PinC_0_val_combo.findText(type, QtCore.Qt.MatchFixedString)
                 if index >= 0:
@@ -984,7 +1049,7 @@ class Ui_create(object):
                 if index >= 0:
                     self.PinC_7_val_combo.setCurrentIndex(index) 
 
-            # fill port B 
+             # -----------------------------fill port D --------------------------------#
             if index == 25 : 
                 index = self.PinD_0_val_combo.findText(type, QtCore.Qt.MatchFixedString)
                 if index >= 0:
@@ -1020,7 +1085,16 @@ class Ui_create(object):
 
 
     def LoadConfigurationFromFile(self):
-
+        ##############################################################################
+        #  This function load configuration from text file  to configure script GUI  #
+        #  INPUT :                                                                   #
+        #      This function take no arguements except self                          #
+        #  OUTPUT :                                                                  #
+        #      this function will load the content of file and parsing it then call  # 
+        #      two functions :                                                       #
+        #            - function to fill DDRD Configuration                           #
+        #            - function to fill PORT Configurations                          #
+        ##############################################################################
         # get file name from text line 
         fileName=self.txt_lineEdit.text()
         try : 
@@ -1058,11 +1132,7 @@ class Ui_create(object):
             #file does not exist 
             print("File not found ") 
 
-        # read all lines from file 
 
-        #parse ddr lines 
-
-        #parse val lines 
 
 
 
