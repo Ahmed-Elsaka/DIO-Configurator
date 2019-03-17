@@ -9,6 +9,7 @@ to external file .
 It also can load exist configuration file and present DDR and PORT registers state using load function 
 in this script .  
 
+
 ## Script Interface 
 #### interface screen
 	From this screen you have to choose if you want to make new configurations or load exist configurations   
@@ -39,6 +40,7 @@ PySide library
 ### How To run script
 
 To run script you have to run this command after installing required packages 
+The script read from file or store in file in the same Folder that have the script 
 ```
 python Dio_splashWindow.py
 ```
